@@ -49,7 +49,7 @@ main{
   }
 
   .quiz-item h3{
-    pad: 16px 20px;
+    padding: 16px 20px;
     color: #e2e3f0;
 
     display: flex;

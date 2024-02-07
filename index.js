@@ -1,94 +1,94 @@
 const perguntas = [
     {
-      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
+      pergunta: "Quem foi o artilheiro da Copa do Mundo de 2002, vencida pelo Brasil?",
       respostas:[
-        "var myVar;",
-        "let myVar;",
-        "const myVar;"
+        "Ronaldo Nazário",
+        "Ronaldinho Gaúcho",
+        "Rivaldo",
       ],
-      correta: 2 // "const myVar;" é a resposta correta
+      correta: 0 // "Ronaldo Nazário" é a resposta correta
     },
     {
-      pergunta: "Como você pode adicionar um comentário de uma linha em JavaScript?",
+      pergunta: "Qual clube brasileiro conquistou a Copa Libertadores da América em 2005?",
       respostas:[
-        "// Este é um comentário",
-        "/* Este é um comentário */",
-        "' Este é um comentário"
+        "São Paulo FC",
+        "Santos FC",
+        "Grêmio FBPA",
       ],
-      correta: 0 // "// Este é um comentário" é a resposta correta
+      correta: 0 // "São Paulo FC" é a resposta correta
     },
     {
-      pergunta: "Qual método JavaScript é usado para imprimir algo no console?",
+      pergunta: "Quem foi o técnico da Seleção Brasileira na conquista da Copa do Mundo de 2002?",
       respostas:[
-        "console.print()",
-        "print()",
-        "console.log()"
+        "Felipão",
+        "Tite",
+        "Dunga",
       ],
-      correta: 2 // "console.log()" é a resposta correta
+      correta: 0 // "Felipão" é a resposta correta
     },
     {
-      pergunta: "Qual é a maneira correta de escrever um loop 'for' em JavaScript?",
+      pergunta: "Qual jogador brasileiro ganhou o prêmio de Melhor Jogador do Mundo da FIFA em 2004?",
       respostas:[
-        "para (i = 0; i < 5; i++)",
-        "for (i = 0; i < 5)",
-        "for (var i = 0; i < 5; i++)"
+        "Ronaldinho Gaúcho",
+        "Kaká",
+        "Ronaldo Nazário",
       ],
-      correta: 2 // "for (var i = 0; i < 5; i++)" é a resposta correta
+      correta: 0 // "Ronaldinho Gaúcho" é a resposta correta
     },
     {
-      pergunta: "Qual é o resultado da expressão '2' + 2 em JavaScript?",
+      pergunta: "Em que ano o Brasil conquistou a medalha de ouro no futebol masculino nas Olimpíadas?",
       respostas:[
-        "22",
-        "4",
-        "TypeError"
+        "2004",
+        "2008",
+        "2012",
       ],
-      correta: 0 // "22" é a resposta correta
+      correta: 1 // "2008" é a resposta correta
     },
     {
-      pergunta: "Qual é a função do método 'querySelector()' em JavaScript?",
+      pergunta: "Qual jogador brasileiro ficou conhecido como 'Rei dos Clássicos' nos anos 2000?",
       respostas:[
-        "Selecionar um elemento pelo seu ID",
-        "Selecionar um elemento pelo seu nome de classe",
-        "Selecionar um elemento pelo seu seletor CSS"
+        "Romário",
+        "Ronaldo Nazário",
+        "Robinho",
       ],
-      correta: 2 // "Selecionar um elemento pelo seu seletor CSS" é a resposta correta
+      correta: 0 // "Romário" é a resposta correta
     },
     {
-      pergunta: "Qual é a saída de 'typeof null' em JavaScript?",
+      pergunta: "Qual foi o jogador brasileiro que marcou o gol decisivo na final da Copa do Mundo de 2002?",
       respostas:[
-        "'object'",
-        "'null'",
-        "'undefined'"
+        "Rivaldo",
+        "Ronaldinho Gaúcho",
+        "Kaká",
       ],
-      correta: 0 // "'object'" é a resposta correta
+      correta: 1 // "Ronaldinho Gaúcho" é a resposta correta
     },
     {
-      pergunta: "Qual é a maneira correta de comparar se duas variáveis têm o mesmo valor e o mesmo tipo em JavaScript?",
+      pergunta: "Qual clube brasileiro venceu a Copa do Brasil em 2009?",
       respostas:[
-        "==",
-        "===",
-        "="
+        "Sport Club Internacional",
+        "Corinthians",
+        "Fluminense FC",
       ],
-      correta: 1 // "===" é a resposta correta
+      correta: 1 // "Corinthians" é a resposta correta
     },
     {
-      pergunta: "Qual é a saída de '5 > 4 > 3' em JavaScript?",
+      pergunta: "Quem foi o capitão da Seleção Brasileira na conquista do pentacampeonato em 2002?",
       respostas:[
-        "true",
-        "false",
-        "TypeError"
+        "Ronaldo Nazário",
+        "Cafu",
+        "Rivaldo",
       ],
-      correta: 1 // "false" é a resposta correta
+      correta: 1 // "Cafu" é a resposta correta
     },
     {
-      pergunta: "Qual é o resultado de '5 + '5' em JavaScript?",
+      pergunta: "Em que país foi disputada a final da Copa do Mundo de 2006, na qual o Brasil não esteve presente?",
       respostas:[
-        "55",
-        "10",
-        "TypeError"
+        "Alemanha",
+        "Itália",
+        "França",
       ],
-      correta: 0 // "55" é a resposta correta
-    },
+      correta: 1 // "Itália" é a resposta correta
+    }
   ];
     
     const quiz = document.querySelector('#quiz')
